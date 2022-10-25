@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+}
+
+.botones{
+    display: flex;
+    justify-content: center !important;
+    
+}
+.quien_soy {
+    background-color: rgb(126, 133, 134);
+    height: 480px;
+    padding: 5px;
+}
+.hola {
+    color: white;
+    padding: 80px;
+}
+.caja_datos {
+    background-color: white;
+    height: 600px;
+    padding: 5px;
+}
+.datos {
+    justify-content: center;
+    padding: 5px;
+    width: 95%;
+}
+.caja_blandas {
+    background-color: white;
+    height: 600px;
+    padding: 5px;
+}
+.blandas {
+    justify-content: center;
+    padding: 5px;
+    width: 95%;
+}
+.caja_tecnicas {
+    background-color: white;
+    height: 600px;
+    padding: 5px;
+}
+.tecnicas {
+    justify-content: center;
+    padding: 5px;
+    width: 95%;
+}
+
+.caja_foto {
+    display: flex; justify-content: center; align-items: center;
+}
+
+.caja_footer {
+    background-color: #EC268F;
+    height: 300px;
+}
+.direccion {
+    justify-content: center;
+    padding: 50px;
+    padding-top: 80px;
+    width: 110%;
+}
+.cajaiden {
+    background-color: white;
+    height: 500;
+}
+.ident_marca {
+    width: 10%;
+}
+.logo_blanco {
+    justify-content: center;
+    padding: 20px;
+    width: 90%;
+}
+.instagram {
+    justify-content: center;
+    padding: 20px;
+    padding-top: 110px;
+    width: 30%;
+}
+.whatsapp {
+    justify-content:end;
+    padding left: 300px;
+    padding-top: 90px;
+    width: 20%;
+}
+.caja_hobbies {
+    background-color: white;
+    height: 540px;
+}
+.caja_contacto {
+    background-color: white;
+    height: 540px;
+}
+.contacto {
+    justify-content: center;
+    width: 95%;
+}
+.hobbies1 {
+    justify-content: center;
+    padding: 10px;
+    padding-top: 10px;
+    width: 95%;
+}
+.hobbies2 {
+    justify-content: center;
+    padding: 10px;
+    padding-top: 10px;
+    width: 95%;
+}
+.foto_perfil {
+    justify-content: center;
+    width: 88%;
+    height: 92%;
+}
+.ident_marca {
+    width: 180%;
+}
+.carousel slide {
+    height: 250%;
+}
+.cajaenblanco {
+    height: 50px;
+}
+.diseno {
+    color: rgb(73, 72, 72);
+    padding: 35px;
+}
+.fouter {
+    background-color: #EC268F;
+    height: 460px;
+}
+.textos_fouter {
+    color: white;
+    padding: 40px;
+    padding-left: 30px;
+}
+
+@media screen and (min-width:20px) and (max-width:780px) {
+    .boton {
+       padding: 5px;
+    }
+}
+
+@media screen and (min-width:20px) and (max-width:780px) {
+    .caja_frase {
+       padding: 5px;
+    }
+}
+@media (max-width:768px) {
+    .texto1 {
+        transform: scale(1.3);
+        padding: 15px;
+    }
+}
+body {
+    @font-face {
+        font-family: comfortaa;
+        src: url(Comfortaa.ttf);
+}
+h1 {
+    font-family: comfortaa;
+}
+
+
+
